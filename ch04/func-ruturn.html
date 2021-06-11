@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>return이 있는 함수</title>
+</head>
+<body>
+    <h2>return이 있는 함수</h2>
+    <script>
+        function addNum(x,y){
+            var add = x + y;
+            //return add;
+        }
+
+        function subNum(x,y){
+            var sub = x - y;
+            return sub;
+        }
+
+        
+        var result = addNum(10,20); //매개변수 - 입력 역할
+        var result2 = subNum(20,10);
+
+        alert("덧셈 결과 : " + add + ", 뺄셈 결과 : " + result2);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+body{
+            text-align: center;
+        }
+.accent{
+            font-size: 20px;
+            font-weight: bold;
+            color: coral;
+        }
+.accent2{
+            font-size: 20px;
+            font-weight: bold;
+            color: brown;
+        }
+#a{
+            border: 2px dotted black;
+            width: 250px;
+            height: 140px;
+            margin: 0 auto;
+        }
