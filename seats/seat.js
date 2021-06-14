@@ -4,7 +4,8 @@ var rowNum;
 
 if(customer % colNum === 0){
     rowNum = parseInt(customer / colNum);
-}else{
+}
+else{
     rowNum = parseInt(customer / colNum) +1;
 }
 
