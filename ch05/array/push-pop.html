@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열객체의 함수 </title>
+</head>
+<body>
+    <script>
+        var numbers = [1,2,3];
+        numbers.push(4,5,6); //맨 뒤에 추가
+
+        for(var i = 0; i<numbers.length; i++){
+            document.write(numbers[i] + " ");
+        }
+        document.write("<br>");
+
+        numbers.pop();
+        document.write(numbers); //객체 자체를 출력시 ','가 들어감.
+
+        
+        
+    </script>
+</body>
+</html>

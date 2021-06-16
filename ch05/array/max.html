@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최댓값 최솟값 찾기</title>
+</head>
+<body>
+    <script>
+        var nums = [17, 53, 77, 4, 91, 60];
+        var max = nums[0];
+        var i;
+
+        for(i=0 ; i<nums.length; i++){
+            if(max < nums[i])
+                max = nums[i];
+        }
+
+        document.write("최댓값 : " + max + "<br>");
+        
+    </script>
+</body>
+</html>

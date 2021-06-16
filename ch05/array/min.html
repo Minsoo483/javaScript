@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최댓값 최솟값 찾기</title>
+</head>
+<body>
+    <script>
+        var nums = [17, 53, 77, 4, 91, 60];
+        var min = nums[0];
+        var i;
+
+        for(i=0 ; i<nums.length; i++){
+            if(nums[i] < min)
+                min = nums[i];
+        }
+
+        document.write("최솟값 : " + min + "<br>");
+        
+        var sum=0;
+        for(i in nums){
+            sum += nums[i];
+        }
+        var average = sum / nums.length;
+        
+        document.write(sum+"<br>");
+        document.write(average);
+        
+
+    </script>
+</body>
+</html>
